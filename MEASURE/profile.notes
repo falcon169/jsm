@@ -1,0 +1,24 @@
+gprof
+---
+ 2080  gcc -pg learn.c -o test
+ 2081  ./test
+ 2082  gprof learn
+
+google-per
+----
+sudo apt-get install google-perftools graphviz`
+ls /usr/lib/libprofiler.so*
+which google-pprof
+
+ 2057  gcc -g learn.c  -o learn
+ 2058  CPUPROFILE_FREQUENCY=10000 LD_PRELOAD=/usr/lib/libprofiler.so.0 CPUPROFILE=dump_lpeechar.txt ./learn
+ 2059  google-pprof -gv learn dump_lpeechar.txt
+ 2060  google-pprof -pdf learn dump_lpeechar.txt
+ 2061  google-pprof -pdf learn dump_lpeechar.txt > hi.pdf
+ 2062  gnu-open hi.pdf
+ 2063  gnome-open hi.pdf
+ 2064  sudo apt-get install libgnome2-0
+ 2065  gnome-open hi.pdf
+
+
+
