@@ -1,0 +1,7 @@
+sudo easy_install pip
+sudo pip install virtualenv
+mkdir VENV_PY && cd VENV_PY/
+virtualenv sanenv
+source sanenv/bin/activate
+pip install zmq
+
