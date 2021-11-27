@@ -1,0 +1,4 @@
+open -a "google chrome" https://www.eventhelix.com/networking/ftp/Ftp.pdf
+
+open -a "google chrome" https://packetlife.net/blog/2010/jun/7/understanding-tcp-sequence-acknowledgment-numbers/
+
